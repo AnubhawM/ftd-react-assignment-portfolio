@@ -6,6 +6,7 @@ const StyledNavBar = styled.div`
   display: flex;
   justify-content: space-around;
   width: 100vw;
+  background-color: black;
 `
 
 const NavBar = props => {
@@ -18,6 +19,7 @@ const NavBar = props => {
       </div>
       <div>
         <NavItem to='/about'>About</NavItem>
+        <NavItem to='/projects'>Projects</NavItem>
         <NavItem to='/resume'>Resume</NavItem>
       </div>
     </StyledNavBar>

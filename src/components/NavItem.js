@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const NavItem = styled(NavLink)`
   font-size: 20pt;
   text-decoration: none;
-  color: pink;
+  color: green;
   padding: 10px;
 
   $.active {
