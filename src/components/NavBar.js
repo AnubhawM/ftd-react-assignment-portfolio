@@ -12,7 +12,7 @@ const StyledNavBar = styled.div`
 const NavBar = props => {
   const resumeClick = () => {
     window.location =
-      'https://www.slideshare.net/slideshow/embed_code/key/f5IkxRImhDxP9g'
+      'https://drive.google.com/open?id=17YH7NVD4koV6qk0D_cT0Ebjt-8YkumFy'
   }
   return (
     <StyledNavBar>

@@ -6,7 +6,7 @@ import Image from '../components/Image'
 import TextBlock from '../components/TextBlock'
 import NavBar from '../components/NavBar'
 
-import AboutBackground from '../components/AboutBackground'
+import ProjectsBackground from '../components/ProjectsBackground'
 import ScrollUpButton from 'react-scroll-up-button'
 
 // How to do this?
@@ -22,7 +22,7 @@ const StyledAbout = styled.div`
 
 const Projects = props => {
   return (
-    <AboutBackground>
+    <ProjectsBackground>
       <div>
         <ScrollUpButton />
       </div>
@@ -32,11 +32,11 @@ const Projects = props => {
           <Row justifyContent='space-around'>
             <Image
               paddingTop='10px'
-              height='300px'
-              width='300px'
+              // height='300px'
+              // width='300px'
               src='https://techcrunch.com/wp-content/uploads/2016/02/cleandatabase.jpg?w=730&crop=1'
             />
-            <TextBlock paddingTop='80px'>
+            <TextBlock paddingTop='140px'>
               Created a database schema representing People, their Location, and
               their Interests in order to connect individuals who are in the
               same location and share interests.
@@ -48,15 +48,15 @@ const Projects = props => {
         <StyledAbout>
           <Row justifyContent='space-around'>
             <Image
-              height='300px'
-              width='300px'
+              // height='300px'
+              // width='300px'
               src='https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2012/06/06/47707665-twitter-bird-white-on-blue.530x298.jpg?v=1347910373'
             />
-            <TextBlock paddingTop='80px'>
-              Implemented a RESTful API using Spring Boot, JPA, and Postgresql.
-              We were tasked with implementing several endpoints such as those
-              which retrieved all active users, created tweets, and deleted
-              users.
+            <TextBlock paddingTop='140px'>
+              Build a Twitter bakend clone by implementing a RESTful API using
+              Spring Boot, JPA, and Postgresql. We were tasked with implementing
+              several endpoints such as those which retrieved all active users,
+              created tweets, and deleted users.
             </TextBlock>
           </Row>
         </StyledAbout>
@@ -65,11 +65,11 @@ const Projects = props => {
         <StyledAbout>
           <Row justifyContent='space-around'>
             <Image
-              height='300px'
-              width='300px'
+              // height='300px'
+              // width='300px'
               src='https://www.historyanswers.co.uk/wp-content/uploads/2014/04/All-About-History-duel.jpg'
             />
-            <TextBlock paddingTop='80px'>
+            <TextBlock paddingTop='140px'>
               Developed a small, full-stack application which interfaced with
               GitHub's API to collect, modify, and display a user's profile and
               repository data. The application used a Node server exposing an
@@ -79,7 +79,7 @@ const Projects = props => {
           </Row>
         </StyledAbout>
       </React.Fragment>
-    </AboutBackground>
+    </ProjectsBackground>
   )
 }
 

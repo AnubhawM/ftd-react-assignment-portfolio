@@ -4,9 +4,9 @@ const ProjectsBackground = styled.div`
   // border: 1px solid #000;
   width: 100vw;
   // height: 100vh;
-  background-image: url('https://us.123rf.com/450wm/attitude/attitude1505/attitude150500062/40022725-teal-blue-green-background-paper-vintage-texture-and-distressed-soft-pale-blue-green-color.jpg?ver=6');
+  background-image: url('https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 `
 
 export default ProjectsBackground

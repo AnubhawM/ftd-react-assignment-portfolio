@@ -6,7 +6,6 @@ import About from './containers/About'
 import Resume from './containers/Resume'
 import Projects from './containers/Projects'
 
-
 const App = () => {
   return (
     <Switch>
