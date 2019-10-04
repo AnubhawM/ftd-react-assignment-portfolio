@@ -39,7 +39,14 @@ const Projects = props => {
             <TextBlock paddingTop='140px'>
               Created a database schema representing People, their Location, and
               their Interests in order to connect individuals who are in the
-              same location and share interests.
+              same location and share interests. <br />
+              <br />
+              <a
+                href='https://github.com/fasttrackd-student-work/java-assignment-schema-design-AnubhawM'
+                target='_blank'
+              >
+                View on GitHub
+              </a>
             </TextBlock>
           </Row>
         </StyledAbout>
@@ -53,10 +60,17 @@ const Projects = props => {
               src='https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2012/06/06/47707665-twitter-bird-white-on-blue.530x298.jpg?v=1347910373'
             />
             <TextBlock paddingTop='140px'>
-              Build a Twitter bakend clone by implementing a RESTful API using
+              Build a Twitter backend clone by implementing a RESTful API using
               Spring Boot, JPA, and Postgresql. We were tasked with implementing
               several endpoints such as those which retrieved all active users,
-              created tweets, and deleted users.
+              created tweets, and deleted users. <br />
+              <br />
+              <a
+                href='https://github.com/fasttrackd-student-work/spring-assessment-social-media-AnubhawM'
+                target='_blank'
+              >
+                View on GitHub
+              </a>
             </TextBlock>
           </Row>
         </StyledAbout>
@@ -74,7 +88,14 @@ const Projects = props => {
               GitHub's API to collect, modify, and display a user's profile and
               repository data. The application used a Node server exposing an
               API using Express. The frontend was created using HTML, CSS,
-              JavaScript, and JQuery.
+              JavaScript, and JQuery. <br />
+              <br />
+              <a
+                href='https://github.com/fasttrackd-student-work/js-assessment-dev-duel-AnubhawM'
+                target='_blank'
+              >
+                View on GitHub
+              </a>
             </TextBlock>
           </Row>
         </StyledAbout>
