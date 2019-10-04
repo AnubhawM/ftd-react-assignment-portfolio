@@ -7,10 +7,8 @@ import HomeBackground from '../components/HomeBackground'
 const Home = props => {
   return (
     <HomeBackground>
-      <React.Fragment>
-        <NavBar />
-        <Header>Anubhaw Mathur</Header>
-      </React.Fragment>
+      <NavBar />
+      <Header>Anubhaw Mathur</Header>
     </HomeBackground>
   )
 }

@@ -10,6 +10,10 @@ const StyledNavBar = styled.div`
 `
 
 const NavBar = props => {
+  const resumeClick = () => {
+    window.location =
+      'https://www.slideshare.net/slideshow/embed_code/key/f5IkxRImhDxP9g'
+  }
   return (
     <StyledNavBar>
       <div>
@@ -20,7 +24,9 @@ const NavBar = props => {
       <div>
         <NavItem to='/about'>About</NavItem>
         <NavItem to='/projects'>Projects</NavItem>
-        <NavItem to='/resume'>Resume</NavItem>
+        <NavItem to='' onClick={resumeClick}>
+          Resume
+        </NavItem>
       </div>
     </StyledNavBar>
   )

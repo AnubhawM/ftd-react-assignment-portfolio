@@ -6,6 +6,7 @@ import About from './containers/About'
 import Resume from './containers/Resume'
 import Projects from './containers/Projects'
 
+
 const App = () => {
   return (
     <Switch>
@@ -13,9 +14,7 @@ const App = () => {
       <Route path='/about' exact component={About} />
       <Route path='/resume' exact component={Resume} />
       <Route path='/projects' exact component={Projects} />
-      <Route path='/https://www.slideshare.net/slideshow/embed_code/key/f5IkxRImhDxP9g'>
-        <a href='https://www.slideshare.net/slideshow/embed_code/key/f5IkxRImhDxP9g' />
-      </Route>
+
       <Redirect to='/' />
     </Switch>
   )

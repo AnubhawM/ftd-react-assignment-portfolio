@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const AboutBackground = styled.div`
+const ProjectsBackground = styled.div`
   // border: 1px solid #000;
   width: 100vw;
   // height: 100vh;
@@ -9,4 +9,4 @@ const AboutBackground = styled.div`
   background-size: cover;
 `
 
-export default AboutBackground
+export default ProjectsBackground
